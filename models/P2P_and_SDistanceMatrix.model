@@ -1,0 +1,738 @@
+{
+    "values": {
+        "inputs": {
+            "STRING_GEOMTRYCOL": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 164.80429198425293, 
+                            "x": 968.753707899942
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_GEOMTRYCOL", 
+                            "default": "geom", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Geomtry_Col_pt"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_IDCOL": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 216.52735847199463, 
+                            "x": 972.2709495550743
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_IDCOL", 
+                            "default": "gid", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Id_col"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_GEOMTRYCOLLINE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 268.2504249597363, 
+                            "x": 975.1508013720786
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_GEOMTRYCOLLINE", 
+                            "default": "the_geom", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "geomtry_col_line"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_POINTSTABLE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 967.9164803394328
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_POINTSTABLE", 
+                            "default": "pb_points", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Points_table"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_USER": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 55.84214364117726, 
+                            "x": 316.58293868243527
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_USER", 
+                            "default": "postgres", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "User"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_WHERECLAUSE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 16.878579476954776, 
+                            "x": 967.4437120931179
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_WHERECLAUSE", 
+                            "default": "", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Where_Clause"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_LINESTABLE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 110.96167879996253, 
+                            "x": 968.626975806112
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_LINESTABLE", 
+                            "default": "ways", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Lines_table"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_SCHEMA": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 18.421436411772625, 
+                            "x": 748.2672259647901
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_SCHEMA", 
+                            "default": "public", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Schema"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_ROUTINGDATABASE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 749.760367492893
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_ROUTINGDATABASE", 
+                            "default": "pb_osm_routing_utm43", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Routing_Database"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_PASSWORD": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 55.84214364117726, 
+                            "x": 532.4250823236125
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_PASSWORD", 
+                            "default": "a", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Password"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "NUMBER_PORT": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 17.921071820588622, 
+                            "x": 535.2367845382342
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "NUMBER_PORT", 
+                            "min": null, 
+                            "default": 5432, 
+                            "max": null, 
+                            "value": null, 
+                            "hidden": false, 
+                            "isInteger": true, 
+                            "description": "Port"
+                        }, 
+                        "class": "processing.core.parameters.ParameterNumber"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_HOST": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 19.0, 
+                            "x": 317.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_HOST", 
+                            "default": "localhost", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Host"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Layer_Routing", 
+        "name": "P2P_and_SDistance_and_Heuristic", 
+        "algs": {
+            "QGISBASICSTATISTICSFORNUMERICFIELDS_1": {
+                "values": {
+                    "name": "QGISBASICSTATISTICSFORNUMERICFIELDS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT_HTML_FILE": {
+                            "values": {
+                                "description": "MMRE", 
+                                "pos": {
+                                    "values": {
+                                        "y": 522.5995805139189, 
+                                        "x": 617.851800024119
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 515.1053236209303, 
+                            "x": 355.80986501541383
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "FIELD_NAME": "Ratio", 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "QGISEXTRACTBYATTRIBUTE_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:basicstatisticsfornumericfields", 
+                    "description": "Basic statistics for numeric fields"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISFIELDCALCULATOR_1": {
+                "values": {
+                    "name": "QGISFIELDCALCULATOR_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT_LAYER": {
+                            "values": {
+                                "description": "Ratio_of_Route", 
+                                "pos": {
+                                    "values": {
+                                        "y": 388.935179258794, 
+                                        "x": 619.635998743263
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 350.635657461919, 
+                            "x": 348.610929790138
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "FIELD_TYPE": 0, 
+                        "NEW_FIELD": true, 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "QGISJOINATTRIBUTESTABLE_1", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "FIELD_PRECISION": 4.0, 
+                        "FIELD_LENGTH": 20.0, 
+                        "FORMULA": "((\"Aggregated\"- \"Direct Cos\")/ \"Direct Cos\")*100", 
+                        "FIELD_NAME": "Ratio"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fieldcalculator", 
+                    "description": "Field calculator"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTODMANYTOMANYPATHCOSTVERSIONOSMV13_1": {
+                "values": {
+                    "name": "SCRIPTODMANYTOMANYPATHCOSTVERSIONOSMV13_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "ShortestDistanceLayer": {
+                            "values": {
+                                "description": "S_o2d_distance", 
+                                "pos": {
+                                    "values": {
+                                        "y": 224.20464618291427, 
+                                        "x": 605.1949617347499
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 149.35672313126418, 
+                            "x": 604.843339234164
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Unique_id_field_name": {
+                            "values": {
+                                "name": "STRING_IDCOL"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "pointTable": {
+                            "values": {
+                                "name": "STRING_POINTSTABLE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Database": {
+                            "values": {
+                                "name": "STRING_ROUTINGDATABASE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Where_clause": {
+                            "values": {
+                                "name": "STRING_WHERECLAUSE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Host": {
+                            "values": {
+                                "name": "STRING_HOST"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "User": {
+                            "values": {
+                                "name": "STRING_USER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Table": {
+                            "values": {
+                                "name": "STRING_LINESTABLE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Geometry_column": {
+                            "values": {
+                                "name": "STRING_GEOMTRYCOLLINE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Password": {
+                            "values": {
+                                "name": "STRING_PASSWORD"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Port": {
+                            "values": {
+                                "name": "NUMBER_PORT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Schema": {
+                            "values": {
+                                "name": "STRING_SCHEMA"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:odmanytomanypathcostversionosmv13", 
+                    "description": "OD Many to many path cost version OSM V1.3"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISEXTRACTBYATTRIBUTE_1": {
+                "values": {
+                    "name": "QGISEXTRACTBYATTRIBUTE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT": {
+                            "values": {
+                                "description": "Ways_Not_Navigable", 
+                                "pos": {
+                                    "values": {
+                                        "y": 456.5679838000188, 
+                                        "x": 616.7559322144385
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 429.8463756678053, 
+                            "x": 350.68985796954917
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 3, 
+                        "INPUT": {
+                            "values": {
+                                "alg": "QGISFIELDCALCULATOR_1", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "VALUE": "20", 
+                        "FIELD": "Ratio"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:extractbyattribute", 
+                    "description": "Extract by attribute"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "RDOTPLOT_1": {
+                "values": {
+                    "name": "RDOTPLOT_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "RPLOTS": {
+                            "values": {
+                                "description": "R", 
+                                "pos": {
+                                    "values": {
+                                        "y": 588.5335693325464, 
+                                        "x": 617.9736502226476
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 589.5335693325464, 
+                            "x": 360.9736502226476
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Field": "Ratio", 
+                        "Layer": {
+                            "values": {
+                                "alg": "QGISEXTRACTBYATTRIBUTE_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "r:dotplot", 
+                    "description": "Dotplot"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISJOINATTRIBUTESTABLE_1": {
+                "values": {
+                    "name": "QGISJOINATTRIBUTESTABLE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 279.7406519736781, 
+                            "x": 346.07551230555305
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_LAYER_2": {
+                            "values": {
+                                "alg": "SCRIPTODPOINTTOPOINTDISTANCEOSMV10_1", 
+                                "output": "point2Point_Distance"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "TABLE_FIELD": "segment", 
+                        "TABLE_FIELD_2": "segment", 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "SCRIPTODMANYTOMANYPATHCOSTVERSIONOSMV13_1", 
+                                "output": "ShortestDistanceLayer"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:joinattributestable", 
+                    "description": "Join attributes table"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTODPOINTTOPOINTDISTANCEOSMV10_1": {
+                "values": {
+                    "name": "SCRIPTODPOINTTOPOINTDISTANCEOSMV10_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "point2Point_Distance": {
+                            "values": {
+                                "description": "P2P", 
+                                "pos": {
+                                    "values": {
+                                        "y": 223.63961743749994, 
+                                        "x": 341.015504890625
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 148.0, 
+                            "x": 326.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Unique_id_field_name": {
+                            "values": {
+                                "name": "STRING_IDCOL"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Database": {
+                            "values": {
+                                "name": "STRING_ROUTINGDATABASE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Where_clause": {
+                            "values": {
+                                "name": "STRING_WHERECLAUSE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Routing_Table": {
+                            "values": {
+                                "name": "STRING_LINESTABLE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Host": {
+                            "values": {
+                                "name": "STRING_HOST"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "User": {
+                            "values": {
+                                "name": "STRING_USER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Table": {
+                            "values": {
+                                "name": "STRING_POINTSTABLE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Geometry_column": {
+                            "values": {
+                                "name": "STRING_GEOMTRYCOL"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Password": {
+                            "values": {
+                                "name": "STRING_PASSWORD"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Port": {
+                            "values": {
+                                "name": "NUMBER_PORT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Schema": {
+                            "values": {
+                                "name": "STRING_SCHEMA"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:odpointtopointdistanceosmv10", 
+                    "description": "OD-point-to-point-Distance-OSMV1.0"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

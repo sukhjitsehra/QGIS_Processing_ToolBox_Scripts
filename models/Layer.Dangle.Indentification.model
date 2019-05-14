@@ -1,0 +1,197 @@
+{
+    "values": {
+        "inputs": {
+            "VECTORLAYER_INPUTFILE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 29.0, 
+                            "x": 122.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_INPUTFILE", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "InputFile"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "NUMBER_DANGLEDISTANCE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 99.0, 
+                            "x": 354.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "NUMBER_DANGLEDISTANCE", 
+                            "min": 0, 
+                            "default": 0, 
+                            "max": 10, 
+                            "value": null, 
+                            "hidden": false, 
+                            "isInteger": true, 
+                            "optional": false, 
+                            "description": "DangleDistance"
+                        }, 
+                        "class": "processing.core.parameters.ParameterNumber"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Layer.Topology", 
+        "name": "Layer.Dangles.Identification", 
+        "algs": {
+            "QGISREPROJECTLAYER_1": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 101.0, 
+                            "x": 126.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "VECTORLAYER_INPUTFILE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:32643"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject layer"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "MODELERTOOLSVECTORLAYERBOUNDS_1": {
+                "values": {
+                    "name": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 34.0, 
+                            "x": 358.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "LAYER": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "modelertools:vectorlayerbounds", 
+                    "description": "Vector layer bounds"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASS7V.CLEAN_1": {
+                "values": {
+                    "name": "GRASS7V.CLEAN_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "output": {
+                            "values": {
+                                "description": "Cleaned", 
+                                "pos": {
+                                    "values": {
+                                        "y": 230.0, 
+                                        "x": 324.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }, 
+                        "error": {
+                            "values": {
+                                "description": "Error Dangles Identified", 
+                                "pos": {
+                                    "values": {
+                                        "y": 260.0, 
+                                        "x": 324.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 185.0, 
+                            "x": 124.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "tool": 2, 
+                        "threshold": {
+                            "values": {
+                                "name": "NUMBER_DANGLEDISTANCE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "input": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass7:v.clean", 
+                    "description": "v.clean - Toolset for cleaning topology of vector map."
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

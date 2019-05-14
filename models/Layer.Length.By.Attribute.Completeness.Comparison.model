@@ -1,0 +1,498 @@
+{
+    "values": {
+        "inputs": {
+            "TABLEFIELD_NAMEFIELDOFTESTLAYER": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 150.56581041564212, 
+                            "x": 547.4364938764329
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "TABLEFIELD_NAMEFIELDOFTESTLAYER", 
+                            "parent": "VECTORLAYER_TESTVECTORFILE", 
+                            "datatype": -1, 
+                            "value": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Name field of Test Layer"
+                        }, 
+                        "class": "processing.core.parameters.ParameterTableField"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "VECTORLAYER_INPUTVECTORFILE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 30.407100422656253, 
+                            "x": 314.4366617078126
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_INPUTVECTORFILE", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Refernce Vector Layer"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "TABLEFIELD_NAMEFIELDOFREFLAYER": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 152.3032809868398, 
+                            "x": 315.65841650295334
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "TABLEFIELD_NAMEFIELDOFREFLAYER", 
+                            "parent": "VECTORLAYER_INPUTVECTORFILE", 
+                            "datatype": -1, 
+                            "value": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Name Field of Ref Layer"
+                        }, 
+                        "class": "processing.core.parameters.ParameterTableField"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "VECTORLAYER_TESTVECTORFILE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 33.19808718749999, 
+                            "x": 765.6185921875
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_TESTVECTORFILE", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Test Vector Layer"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "VECTORLAYER_REGIONS": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 31.552563125000006, 
+                            "x": 549.447436875
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_REGIONS", 
+                            "shapetype": [
+                                2
+                            ], 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Regions"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "TABLEFIELD_REGIONID": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 153.2868702722365, 
+                            "x": 770.6843278332642
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "TABLEFIELD_REGIONID", 
+                            "parent": "VECTORLAYER_REGIONS", 
+                            "datatype": -1, 
+                            "value": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Region ID"
+                        }, 
+                        "class": "processing.core.parameters.ParameterTableField"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Layer.Comparison", 
+        "name": "Layer.Length.By.Attribute.Complteness.Comparison", 
+        "algs": {
+            "QGISSUMLINELENGTHS_2": {
+                "values": {
+                    "name": "QGISSUMLINELENGTHS_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 275.04904949576115, 
+                            "x": 325.2355465671906
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "COUNT_FIELD": "RefCount", 
+                        "LINES": {
+                            "values": {
+                                "alg": "QGISSELECTBYATTRIBUTE_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "POLYGONS": {
+                            "values": {
+                                "name": "VECTORLAYER_REGIONS"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "LEN_FIELD": "RefLength"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:sumlinelengths", 
+                    "description": "Sum Line Length Reference byAttribute"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISSUMLINELENGTHS_1": {
+                "values": {
+                    "name": "QGISSUMLINELENGTHS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 276.83900524351674, 
+                            "x": 550.1594908774621
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "COUNT_FIELD": "TestCount", 
+                        "LINES": {
+                            "values": {
+                                "alg": "QGISSELECTBYATTRIBUTE_2", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "POLYGONS": {
+                            "values": {
+                                "name": "VECTORLAYER_REGIONS"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "LEN_FIELD": "TestLength"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:sumlinelengths", 
+                    "description": "Sum Line Lengths Test Layer by Attribute"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_1": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 95.18579915468749, 
+                            "x": 311.9940591718751
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "VECTORLAYER_INPUTVECTORFILE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:32643"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "ReprojectInputFile"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISSELECTBYATTRIBUTE_1": {
+                "values": {
+                    "name": "QGISSELECTBYATTRIBUTE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 207.54290619114062, 
+                            "x": 324.2076185097809
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 1, 
+                        "INPUT": {
+                            "values": {
+                                "name": "VECTORLAYER_INPUTVECTORFILE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "VALUE": "Null", 
+                        "FIELD": {
+                            "values": {
+                                "name": "TABLEFIELD_NAMEFIELDOFREFLAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:selectbyattribute", 
+                    "description": "Select by attribute"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISFIELDCALCULATOR_1": {
+                "values": {
+                    "name": "QGISFIELDCALCULATOR_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "OUTPUT_LAYER": {
+                            "values": {
+                                "description": "Diffrence Length of road with name attribute", 
+                                "pos": {
+                                    "values": {
+                                        "y": 505.21396163650144, 
+                                        "x": 517.4533654889153
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 438.05212997966544, 
+                            "x": 515.43239495665
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "FIELD_TYPE": 0, 
+                        "NEW_FIELD": true, 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "QGISJOINATTRIBUTESTABLE_1", 
+                                "output": "OUTPUT_LAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "FIELD_PRECISION": 3.0, 
+                        "FIELD_LENGTH": 10.0, 
+                        "FORMULA": "(RefLength) - (TestLength)", 
+                        "FIELD_NAME": "Differnce"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:fieldcalculator", 
+                    "description": "Field calculator"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_2": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 96.0, 
+                            "x": 548.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "VECTORLAYER_REGIONS"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:32643"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "ReprojectedRegionFile"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_3": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 92.42394718749978, 
+                            "x": 767.9999999999999
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "VECTORLAYER_TESTVECTORFILE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:32643"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "ReprojectedTestVector File"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISJOINATTRIBUTESTABLE_1": {
+                "values": {
+                    "name": "QGISJOINATTRIBUTESTABLE_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 364.48092498265754, 
+                            "x": 505.9042191837102
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_LAYER_2": {
+                            "values": {
+                                "alg": "QGISSUMLINELENGTHS_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "TABLE_FIELD": {
+                            "values": {
+                                "name": "TABLEFIELD_REGIONID"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TABLE_FIELD_2": {
+                            "values": {
+                                "name": "TABLEFIELD_REGIONID"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "QGISSUMLINELENGTHS_2", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:joinattributestable", 
+                    "description": "Join attributes table"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISSELECTBYATTRIBUTE_2": {
+                "values": {
+                    "name": "QGISSELECTBYATTRIBUTE_2", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 201.87291902913682, 
+                            "x": 550.1531243222234
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "OPERATOR": 1, 
+                        "INPUT": {
+                            "values": {
+                                "name": "VECTORLAYER_TESTVECTORFILE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "VALUE": "Null", 
+                        "FIELD": {
+                            "values": {
+                                "name": "TABLEFIELD_NAMEFIELDOFTESTLAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:selectbyattribute", 
+                    "description": "Select by attribute"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

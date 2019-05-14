@@ -1,0 +1,112 @@
+{
+    "values": {
+        "inputs": {
+            "VECTORLAYER_INPUTRATIO": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 120.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_INPUTRATIO", 
+                            "shapetype": [
+                                -1
+                            ], 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "input_Ratio"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "TABLEFIELD_RATIOFIELD": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 340.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "TABLEFIELD_RATIOFIELD", 
+                            "parent": "VECTORLAYER_INPUTRATIO", 
+                            "datatype": -1, 
+                            "value": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Ratio_Field"
+                        }, 
+                        "class": "processing.core.parameters.ParameterTableField"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Layer_Routing", 
+        "name": "working", 
+        "algs": {
+            "GRASSV.EXTRACT_1": {
+                "values": {
+                    "name": "GRASSV.EXTRACT_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "output": {
+                            "values": {
+                                "description": "op", 
+                                "pos": {
+                                    "values": {
+                                        "y": 242.0, 
+                                        "x": 454.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 197.0, 
+                            "x": 254.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "-d": true, 
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "GRASS_OUTPUT_TYPE_PARAMETER": 0, 
+                        "input": {
+                            "values": {
+                                "name": "VECTORLAYER_INPUTRATIO"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null, 
+                        "where": "Difference > 1.5"
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.extract", 
+                    "description": "v.extract - Selects vector objects from a vector layer a new layer containing only the selected objects."
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

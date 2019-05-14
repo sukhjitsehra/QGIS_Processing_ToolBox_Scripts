@@ -1,0 +1,210 @@
+{
+    "values": {
+        "inputs": {
+            "TABLEFIELD_AGGREGATEDCOST": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 786.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "TABLEFIELD_AGGREGATEDCOST", 
+                            "parent": "VECTORLAYER_RATIOLAYER", 
+                            "datatype": -1, 
+                            "value": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Aggregated_cost"
+                        }, 
+                        "class": "processing.core.parameters.ParameterTableField"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "TABLEFIELD_RATIO": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 82.0, 
+                            "x": 346.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "TABLEFIELD_RATIO", 
+                            "parent": "VECTORLAYER_RATIOLAYER", 
+                            "datatype": -1, 
+                            "value": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Ratio"
+                        }, 
+                        "class": "processing.core.parameters.ParameterTableField"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "VECTORLAYER_RATIOLAYER": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 84.0, 
+                            "x": 110.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_RATIOLAYER", 
+                            "shapetype": [
+                                -1
+                            ], 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Ratio_Layer"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "TABLEFIELD_DIRECTCOST": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 79.0, 
+                            "x": 577.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "TABLEFIELD_DIRECTCOST", 
+                            "parent": "VECTORLAYER_RATIOLAYER", 
+                            "datatype": -1, 
+                            "value": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Direct_Cost"
+                        }, 
+                        "class": "processing.core.parameters.ParameterTableField"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Layer_Routing", 
+        "name": "Plotting_From_Heuristic_Navigability", 
+        "algs": {
+            "RQQPLOT_1": {
+                "values": {
+                    "name": "RQQPLOT_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "RPLOTS": {
+                            "values": {
+                                "description": "qqplot", 
+                                "pos": {
+                                    "values": {
+                                        "y": 410.0, 
+                                        "x": 389.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 365.0, 
+                            "x": 189.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "X": {
+                            "values": {
+                                "name": "TABLEFIELD_RATIO"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Layer": {
+                            "values": {
+                                "name": "VECTORLAYER_RATIOLAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "r:qqplot", 
+                    "description": "qqplot"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "RHISTOGRAM_1": {
+                "values": {
+                    "name": "RHISTOGRAM_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "RPLOTS": {
+                            "values": {
+                                "description": "Plot", 
+                                "pos": {
+                                    "values": {
+                                        "y": 218.0, 
+                                        "x": 359.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "pos": {
+                        "values": {
+                            "y": 161.0, 
+                            "x": 247.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Field": {
+                            "values": {
+                                "name": "TABLEFIELD_RATIO"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Layer": {
+                            "values": {
+                                "name": "VECTORLAYER_RATIOLAYER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "r:histogram", 
+                    "description": "Histogram"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

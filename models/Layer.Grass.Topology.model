@@ -1,0 +1,464 @@
+{
+    "values": {
+        "inputs": {
+            "VECTORLAYER_TESTVECTORFILE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 17.801942495180242, 
+                            "x": 259.2657202511915
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_TESTVECTORFILE", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Input Vector File"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Layer.Topology", 
+        "name": "Layer.Grass.Topology.Line", 
+        "algs": {
+            "QGISCHECKVALIDITY_1": {
+                "values": {
+                    "name": "QGISCHECKVALIDITY_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "VALID_OUTPUT": {
+                            "values": {
+                                "description": "Valid Output", 
+                                "pos": {
+                                    "values": {
+                                        "y": 519.5681756397669, 
+                                        "x": 374.42620777972957
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }, 
+                        "INVALID_OUTPUT": {
+                            "values": {
+                                "description": "Invalid Input", 
+                                "pos": {
+                                    "values": {
+                                        "y": 549.5681756397669, 
+                                        "x": 374.42620777972957
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }, 
+                        "ERROR_OUTPUT": {
+                            "values": {
+                                "description": "Error Output", 
+                                "pos": {
+                                    "values": {
+                                        "y": 579.5681756397669, 
+                                        "x": 374.42620777972957
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 474.5681756397669, 
+                            "x": 174.42620777972957
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT_LAYER": {
+                            "values": {
+                                "alg": "GRASS7V.CLEAN_5", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "METHOD": 0
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:checkvalidity", 
+                    "description": "Check validity"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASS7V.CLEAN_5": {
+                "values": {
+                    "name": "GRASS7V.CLEAN_5", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "output": {
+                            "values": {
+                                "description": "Cleaned ouptut after zero length lines", 
+                                "pos": {
+                                    "values": {
+                                        "y": 453.2735223850791, 
+                                        "x": 372.70997281082316
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }, 
+                        "error": {
+                            "values": {
+                                "description": "Error Zero Length lines", 
+                                "pos": {
+                                    "values": {
+                                        "y": 483.2735223850791, 
+                                        "x": 372.70997281082316
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 408.2735223850791, 
+                            "x": 172.70997281082316
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "tool": 11, 
+                        "threshold": 0.0, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASS7V.CLEAN_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass7:v.clean", 
+                    "description": "Remove the Zero length lines"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASS7V.CLEAN_4": {
+                "values": {
+                    "name": "GRASS7V.CLEAN_4", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "error": {
+                            "values": {
+                                "description": "Simplification -microsegment removal", 
+                                "pos": {
+                                    "values": {
+                                        "y": 198.96217526437636, 
+                                        "x": 367.3733784916045
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 153.96217526437636, 
+                            "x": 167.3733784916045
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "tool": 9, 
+                        "threshold": 3.0, 
+                        "input": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_3", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass7:v.clean", 
+                    "description": "Microsegment Error Detection"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_3": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_3", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 87.06403704390858, 
+                            "x": 171.2439739955417
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "VECTORLAYER_TESTVECTORFILE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:32643"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject layer"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASS7V.CLEAN_2": {
+                "values": {
+                    "name": "GRASS7V.CLEAN_2", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "error": {
+                            "values": {
+                                "description": "Snapped Errors", 
+                                "pos": {
+                                    "values": {
+                                        "y": 258.96217526437636, 
+                                        "x": 368.3733784916045
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 213.96217526437636, 
+                            "x": 168.3733784916045
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "tool": 1, 
+                        "threshold": 3.0, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASS7V.CLEAN_4", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass7:v.clean", 
+                    "description": "Snapping overshoot and undershoots"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASS7V.CLEAN_3": {
+                "values": {
+                    "name": "GRASS7V.CLEAN_3", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "error": {
+                            "values": {
+                                "description": "Error Dangle", 
+                                "pos": {
+                                    "values": {
+                                        "y": 321.96217526437636, 
+                                        "x": 368.3733784916045
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 276.96217526437636, 
+                            "x": 168.3733784916045
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "tool": 2, 
+                        "threshold": 3.0, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASS7V.CLEAN_2", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass7:v.clean", 
+                    "description": "Remove the Dangling Errors"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASS7V.CLEAN_1": {
+                "values": {
+                    "name": "GRASS7V.CLEAN_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "output": {
+                            "values": {
+                                "description": "Clean Duplicates", 
+                                "pos": {
+                                    "values": {
+                                        "y": 379.41084704839784, 
+                                        "x": 370.822050275626
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }, 
+                        "error": {
+                            "values": {
+                                "description": "Error Duplicates", 
+                                "pos": {
+                                    "values": {
+                                        "y": 409.41084704839784, 
+                                        "x": 370.822050275626
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 334.41084704839784, 
+                            "x": 170.822050275626
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "tool": 6, 
+                        "threshold": 0.0, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASS7V.CLEAN_3", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": {
+                            "values": {
+                                "alg": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                                "output": "EXTENT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass7:v.clean", 
+                    "description": "Removing the geometry features with identical coordinates"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "MODELERTOOLSVECTORLAYERBOUNDS_1": {
+                "values": {
+                    "name": "MODELERTOOLSVECTORLAYERBOUNDS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 87.71334846582107, 
+                            "x": 389.97879641589765
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "LAYER": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_3", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "modelertools:vectorlayerbounds", 
+                    "description": "Vector layer bounds"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

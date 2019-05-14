@@ -1,0 +1,674 @@
+Started logging at Tue Aug 26 2014 17:52:43
+Started logging at Thu Aug 28 2014 20:00:48
+Started logging at Thu Oct 02 2014 21:55:09
+Started logging at Mon Oct 13 2014 19:09:23
+ALGORITHM|Mon Oct 13 2014 21:28:54|processing.runalg("modeler:noinputs",None)
+ALGORITHM|Mon Oct 13 2014 21:29:11|processing.runalg("script:ascriptthatreturnsanumber")
+ALGORITHM|Mon Oct 13 2014 21:29:21|processing.runalg("script:numberofuniquevaluesinclasses","/tmp/processing/32b78507de5749e899d50fb79984ba23/OUTPUT_LAYER_ALG1.shp","latitude","latitude",None)
+Started logging at Tue Oct 14 2014 09:46:39
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/Save_features_filtered_by_expression.py|Problem with line: ##Expression=longstring|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/Split_vector_layer_by_attribute.py|Problem with line: ##nomodeler|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_raster_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/predominant_category.py|Problem with line: ##layera=vector polygon|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/Create_vector_layer_from_SQL_Query.py|Problem with line: ##Query=longstring|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/FrequencyStats.py|Problem with line: ##vector=vector polygon|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/Set_multiple_raster_layers_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/Buffer Contour.py|Problem with line: ##Points=vector point|
+ERROR|Tue Oct 14 2014 09:46:39|Could not load script: /home/a/.qgis2/processing/scripts/Define_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+Started logging at Tue Oct 14 2014 09:50:27
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/Save_features_filtered_by_expression.py|Problem with line: ##Expression=longstring|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/Split_vector_layer_by_attribute.py|Problem with line: ##nomodeler|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_raster_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/predominant_category.py|Problem with line: ##layera=vector polygon|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/Create_vector_layer_from_SQL_Query.py|Problem with line: ##Query=longstring|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/FrequencyStats.py|Problem with line: ##vector=vector polygon|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/Set_multiple_raster_layers_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/Buffer Contour.py|Problem with line: ##Points=vector point|
+ERROR|Tue Oct 14 2014 09:50:27|Could not load script: /home/a/.qgis2/processing/scripts/Define_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+Started logging at Tue Oct 14 2014 10:01:47
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/Save_features_filtered_by_expression.py|Problem with line: ##Expression=longstring|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/Split_vector_layer_by_attribute.py|Problem with line: ##nomodeler|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_raster_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/predominant_category.py|Problem with line: ##layera=vector polygon|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/Create_vector_layer_from_SQL_Query.py|Problem with line: ##Query=longstring|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/FrequencyStats.py|Problem with line: ##vector=vector polygon|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/Set_multiple_raster_layers_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/Buffer Contour.py|Problem with line: ##Points=vector point|
+ERROR|Tue Oct 14 2014 10:01:48|Could not load script: /home/a/.qgis2/processing/scripts/Define_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+Started logging at Tue Oct 14 2014 12:28:17
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/Save_features_filtered_by_expression.py|Problem with line: ##Expression=longstring|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/Split_vector_layer_by_attribute.py|Problem with line: ##nomodeler|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_raster_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/predominant_category.py|Problem with line: ##layera=vector polygon|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/Create_vector_layer_from_SQL_Query.py|Problem with line: ##Query=longstring|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/FrequencyStats.py|Problem with line: ##vector=vector polygon|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/Set_multiple_raster_layers_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/Buffer Contour.py|Problem with line: ##Points=vector point|
+ERROR|Tue Oct 14 2014 12:28:17|Could not load script: /home/a/.qgis2/processing/scripts/Define_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ALGORITHM|Tue Oct 14 2014 12:47:00|processing.runalg("qgis:distancetonearesthub","/home/a/Desktop/test-buffer.shp","/home/a/Desktop/test-buffer.shp","LANES",0,0,None)
+ERROR|Tue Oct 14 2014 12:47:00|Same layer given for both hubs and spokes
+ALGORITHM|Tue Oct 14 2014 12:48:46|processing.runalg("qgis:basicstatisticsfornumericfields","/home/a/Desktop/test-buffer.shp","LANES",None)
+ERROR|Tue Oct 14 2014 12:48:47|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/ftools/BasicStatisticsNumbers.py", line 111, in processAlgorithm|    value = float(ft.attributes()[index])|TypeError: float() argument must be a string or a number|
+Started logging at Tue Oct 14 2014 12:49:38
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/Save_features_filtered_by_expression.py|Problem with line: ##Expression=longstring|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/Split_vector_layer_by_attribute.py|Problem with line: ##nomodeler|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_raster_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/predominant_category.py|Problem with line: ##layera=vector polygon|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/Create_vector_layer_from_SQL_Query.py|Problem with line: ##Query=longstring|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/FrequencyStats.py|Problem with line: ##vector=vector polygon|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/Set_multiple_raster_layers_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/Buffer Contour.py|Problem with line: ##Points=vector point|
+ERROR|Tue Oct 14 2014 12:49:38|Could not load script: /home/a/.qgis2/processing/scripts/Define_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+Started logging at Tue Oct 14 2014 13:39:52
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/Save_features_filtered_by_expression.py|Problem with line: ##Expression=longstring|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/Split_vector_layer_by_attribute.py|Problem with line: ##nomodeler|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_raster_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/predominant_category.py|Problem with line: ##layera=vector polygon|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/Create_vector_layer_from_SQL_Query.py|Problem with line: ##Query=longstring|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/FrequencyStats.py|Problem with line: ##vector=vector polygon|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/Set_multiple_raster_layers_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/Buffer Contour.py|Problem with line: ##Points=vector point|
+ERROR|Tue Oct 14 2014 13:39:52|Could not load script: /home/a/.qgis2/processing/scripts/Define_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ALGORITHM|Tue Oct 14 2014 13:44:29|processing.runalg("modeler:watersheds","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/QGIS /QGIS-Processing-master/models/watersheds.model",1000000,None)
+INFO|Tue Oct 14 2014 13:44:29|SAGA execution commands|io_gdal 0 -GRIDS "/tmp/processing/5f17299fef274a4288dd1865cde7b4cd/mediaaDATASukhjitresearchresearchOpenstreetmapsQGISQGISProcessingmastermodelswatershedsmodel.sgrd" -FILES "/media/a/DATA/Sukhjit/research/research/Openstreetmaps/QGIS /QGIS-Processing-master/models/watersheds.model"|ta_preprocessor "Fill Sinks (Planchon/Darboux, 2001)" -DEM "/tmp/processing/5f17299fef274a4288dd1865cde7b4cd/mediaaDATASukhjitresearchresearchOpenstreetmapsQGISQGISProcessingmastermodelswatershedsmodel.sgrd" -MINSLOPE 0.01 -RESULT "/tmp/processing/RESULT.tif.sgrd"|io_gdal 1 -GRIDS "/tmp/processing/RESULT.tif.sgrd" -FORMAT 4 -TYPE 0 -FILE "/tmp/processing/b58c1bf274104e0b9638f02cdc45b963/RESULT.tif"
+INFO|Tue Oct 14 2014 13:44:29|SAGA execution console output|/home/a/.qgis2//processing/saga_batch_job.sh: 1: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found|/home/a/.qgis2//processing/saga_batch_job.sh: 2: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found|/home/a/.qgis2//processing/saga_batch_job.sh: 3: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found
+ERROR|Tue Oct 14 2014 13:44:29|Error executing algorithm 1|Wrong value: /tmp/processing/b58c1bf274104e0b9638f02cdc45b963/RESULT.tif
+ALGORITHM|Tue Oct 14 2014 13:45:09|processing.runalg("script:ascriptthatreturnsanumber")
+ALGORITHM|Tue Oct 14 2014 13:45:10|processing.runalg("script:ascriptthatreturnsanumber")
+ALGORITHM|Tue Oct 14 2014 13:45:15|processing.runalg("script:ascriptthatreturnsanumber")
+ALGORITHM|Tue Oct 14 2014 13:49:17|processing.runalg("qgis:statisticsbycategories","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","LANES","LANES",None)
+ALGORITHM|Tue Oct 14 2014 13:49:57|processing.runalg("gdalogr:ogrinfo","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp",None)
+ALGORITHM|Tue Oct 14 2014 13:50:18|processing.runalg("qgis:selectbylocation","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp",0)
+ALGORITHM|Tue Oct 14 2014 14:51:32|processing.runalg("modeler:watersheds","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/QGIS /QGIS-Processing-master/models/watersheds.model",1000000,None)
+INFO|Tue Oct 14 2014 14:51:32|SAGA execution commands|io_gdal 0 -GRIDS "/tmp/processing/6f8cfce82fad474897e6b6c0f1058418/mediaaDATASukhjitresearchresearchOpenstreetmapsQGISQGISProcessingmastermodelswatershedsmodel.sgrd" -FILES "/media/a/DATA/Sukhjit/research/research/Openstreetmaps/QGIS /QGIS-Processing-master/models/watersheds.model"|ta_preprocessor "Fill Sinks (Planchon/Darboux, 2001)" -DEM "/tmp/processing/6f8cfce82fad474897e6b6c0f1058418/mediaaDATASukhjitresearchresearchOpenstreetmapsQGISQGISProcessingmastermodelswatershedsmodel.sgrd" -MINSLOPE 0.01 -RESULT "/tmp/processing/RESULT.tif.sgrd"|io_gdal 1 -GRIDS "/tmp/processing/RESULT.tif.sgrd" -FORMAT 4 -TYPE 0 -FILE "/tmp/processing/cef97d18f6d94862ab14f861415eacab/RESULT.tif"
+INFO|Tue Oct 14 2014 14:51:32|SAGA execution console output|/home/a/.qgis2//processing/saga_batch_job.sh: 1: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found|/home/a/.qgis2//processing/saga_batch_job.sh: 2: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found|/home/a/.qgis2//processing/saga_batch_job.sh: 3: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found
+ERROR|Tue Oct 14 2014 14:51:32|Error executing algorithm 1|Wrong value: /tmp/processing/cef97d18f6d94862ab14f861415eacab/RESULT.tif
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/Save_features_filtered_by_expression.py|Problem with line: ##Expression=longstring|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/Split_vector_layer_by_attribute.py|Problem with line: ##nomodeler|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_raster_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/predominant_category.py|Problem with line: ##layera=vector polygon|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/Create_vector_layer_from_SQL_Query.py|Problem with line: ##Query=longstring|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/FrequencyStats.py|Problem with line: ##vector=vector polygon|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/Set_multiple_raster_layers_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/Buffer Contour.py|Problem with line: ##Points=vector point|
+ERROR|Tue Oct 14 2014 14:52:57|Could not load script: /home/a/.qgis2/processing/scripts/Define_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ALGORITHM|Tue Oct 14 2014 15:09:27|processing.runalg("modeler:1413279564.442","/home/a/Desktop/test.shp")
+Started logging at Tue Oct 14 2014 15:22:17
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/Save_features_filtered_by_expression.py|Problem with line: ##Expression=longstring|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/Split_vector_layer_by_attribute.py|Problem with line: ##nomodeler|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_raster_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/predominant_category.py|Problem with line: ##layera=vector polygon|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/Create_vector_layer_from_SQL_Query.py|Problem with line: ##Query=longstring|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/FrequencyStats.py|Problem with line: ##vector=vector polygon|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/Define_1_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/Set_multiple_raster_layers_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/Buffer Contour.py|Problem with line: ##Points=vector point|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load script: /home/a/.qgis2/processing/scripts/Define_vector_layer_properties.py|Problem with line: ##Coordinate_Reference_System=crs None|
+ERROR|Tue Oct 14 2014 15:22:18|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 15:22:18|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 15:22:18|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 16:50:29|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/IND_rds_DIVA GIS/IND_roads.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp",None)
+ALGORITHM|Tue Oct 14 2014 16:51:50|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp",None)
+Started logging at Tue Oct 14 2014 17:11:29
+ERROR|Tue Oct 14 2014 17:11:30|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 17:11:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 17:11:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 17:13:31|processing.runalg("script:ttestindependentsamples","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/india-latest_OSM.shp/roads.shp","osm_id","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/IND_rds_DIVA GIS/IND_roads.shp","F_CODE_DES",None)
+ERROR|Tue Oct 14 2014 17:13:33|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/script/ScriptAlgorithm.py", line 213, in processAlgorithm|    exec(script) in ns|  File "<string>", line 20, in <module>|AttributeError: 'module' object has no attribute 'getObject'|
+ALGORITHM|Tue Oct 14 2014 17:14:06|processing.runalg("script:linelayertoroutes","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/india-latest_OSM.shp/roads.shp","bridge","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/india-latest_OSM.shp/roads.shp",None)
+ERROR|Tue Oct 14 2014 17:14:06|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/script/ScriptAlgorithm.py", line 213, in processAlgorithm|    exec(script) in ns|  File "<string>", line 21, in <module>|AttributeError: 'module' object has no attribute 'getObject'|
+ALGORITHM|Tue Oct 14 2014 18:03:12|processing.runalg("modeler:total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp",None)
+ALGORITHM|Tue Oct 14 2014 21:01:18|processing.runalg("modeler:1413300670.82","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=")
+ERROR|Tue Oct 14 2014 21:01:19|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/FieldPyculator.py", line 125, in processAlgorithm|    unicode(sys.exc_info()[0].__name__), unicode(sys.exc_info()[1]))|TypeError: __init__() takes exactly 2 arguments (4 given)|
+ERROR|Tue Oct 14 2014 21:01:19|Error executing algorithm 0|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/FieldPyculator.py", line 125, in processAlgorithm|    unicode(sys.exc_info()[0].__name__), unicode(sys.exc_info()[1]))|TypeError: __init__() takes exactly 2 arguments (4 given)|
+ALGORITHM|Tue Oct 14 2014 21:01:50|processing.runalg("modeler:1413300707.323","dbname='/home/a/testdata.sqlite' table="routepoints1" (geometry) sql=")
+ALGORITHM|Tue Oct 14 2014 21:03:13|processing.runalg("qgis:fieldcalculator","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","test",0,10,5,"",None)
+ALGORITHM|Tue Oct 14 2014 21:04:04|processing.runalg("qgis:advancedpythonfieldcalculator","/tmp/processing/c4d61911d9de4c0abbdc9a40e03bfe90/OUTPUT_LAYER.shp","NewField",0,10,0,"","value = ",None)
+ERROR|Tue Oct 14 2014 21:04:04|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/FieldPyculator.py", line 125, in processAlgorithm|    unicode(sys.exc_info()[0].__name__), unicode(sys.exc_info()[1]))|TypeError: __init__() takes exactly 2 arguments (4 given)|
+ALGORITHM|Tue Oct 14 2014 21:04:18|processing.runalg("saga:polygoncentroids","/usr/share/qgis/python/plugins/processing/tests/data/polygons.shp",False,None)
+INFO|Tue Oct 14 2014 21:04:18|SAGA execution commands|shapes_polygons "Polygon Centroids" -POLYGONS "/usr/share/qgis/python/plugins/processing/tests/data/polygons.shp" -CENTROIDS "/tmp/processing/a079fdaf95c94e2c85abc837f14c3c18/CENTROIDS.shp"
+INFO|Tue Oct 14 2014 21:04:18|SAGA execution console output|/home/a/.qgis2//processing/saga_batch_job.sh: 1: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found
+ALGORITHM|Tue Oct 14 2014 21:04:31|processing.runalg("qgis:fieldcalculator","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","",0,10,5,"",None)
+ALGORITHM|Tue Oct 14 2014 21:38:37|processing.runalg("modeler:total_graph_length","/home/a/Desktop/region.shp","/home/a/Desktop/region.shp",None)
+ALGORITHM|Tue Oct 14 2014 21:51:33|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/region.shp",None)
+Started logging at Tue Oct 14 2014 21:59:04
+ERROR|Tue Oct 14 2014 21:59:05|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 21:59:05|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 21:59:05|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 22:00:25|processing.runalg("modeler:total_graph_length","/home/a/Desktop/netsqlite.shp","/home/a/Desktop/netsqlite.shp",None)
+Started logging at Tue Oct 14 2014 22:02:30
+ERROR|Tue Oct 14 2014 22:02:30|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 22:02:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 22:02:31|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 22:04:17|processing.runalg("modeler:total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/home/a/Desktop/a.shp",None)
+ALGORITHM|Tue Oct 14 2014 22:04:18|processing.runalg("modeler:total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/home/a/Desktop/a.shp",None)
+ALGORITHM|Tue Oct 14 2014 22:10:01|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/regionpoly.shp",None)
+Started logging at Tue Oct 14 2014 22:12:27
+ERROR|Tue Oct 14 2014 22:12:27|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 22:12:27|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 22:12:27|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 22:14:34|processing.runalg("saga:polygoncentroids","/usr/share/qgis/python/plugins/processing/tests/data/polygons.shp",False,None)
+INFO|Tue Oct 14 2014 22:14:35|SAGA execution commands|shapes_polygons "Polygon Centroids" -POLYGONS "/usr/share/qgis/python/plugins/processing/tests/data/polygons.shp" -CENTROIDS "/tmp/processing/1d35e05744324cd3941cb683c00fa653/CENTROIDS.shp"
+INFO|Tue Oct 14 2014 22:14:35|SAGA execution console output|/home/a/.qgis2//processing/saga_batch_job.sh: 1: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found
+ALGORITHM|Tue Oct 14 2014 22:14:40|processing.runalg("saga:polygoncentroids","/usr/share/qgis/python/plugins/processing/tests/data/polygons.shp",False,None)
+INFO|Tue Oct 14 2014 22:14:40|SAGA execution commands|shapes_polygons "Polygon Centroids" -POLYGONS "/usr/share/qgis/python/plugins/processing/tests/data/polygons.shp" -CENTROIDS "/tmp/processing/51c7d3c3ee374a858fe69c41f71684a3/CENTROIDS.shp"
+INFO|Tue Oct 14 2014 22:14:40|SAGA execution console output|/home/a/.qgis2//processing/saga_batch_job.sh: 1: /home/a/.qgis2//processing/saga_batch_job.sh: saga_cmd: not found
+ALGORITHM|Tue Oct 14 2014 22:18:19|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","/home/a/Desktop/regionpoly.shp",None)
+ALGORITHM|Tue Oct 14 2014 22:20:15|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","/home/a/Desktop/regionpoly.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","AREA",None)
+Started logging at Tue Oct 14 2014 22:20:50
+ERROR|Tue Oct 14 2014 22:20:50|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 22:20:50|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 22:20:50|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 22:21:29|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","/home/a/Desktop/regionpoly.shp",None)
+ALGORITHM|Tue Oct 14 2014 22:22:49|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","/home/a/Desktop/regionpoly.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","AREA",None)
+Started logging at Tue Oct 14 2014 22:23:12
+ERROR|Tue Oct 14 2014 22:23:12|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 22:23:12|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 22:23:12|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 22:24:44|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","AREA",None)
+Started logging at Tue Oct 14 2014 22:30:32
+ERROR|Tue Oct 14 2014 22:30:33|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 22:30:33|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 22:30:33|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Oct 14 2014 22:38:34
+ERROR|Tue Oct 14 2014 22:38:34|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 22:38:34|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 22:38:35|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 22:40:20|processing.runalg("qgis:fieldcalculator","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","id",0,10,5,"",None)
+ALGORITHM|Tue Oct 14 2014 22:43:37|processing.runalg("qgis:fieldcalculator","/tmp/processing/16fddaa3b8c64f29bf0d5b9d981d9ebe/OUTPUT_LAYER.shp","",0,10,5,"",None)
+ALGORITHM|Tue Oct 14 2014 22:46:59|processing.runalg("modeler:total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/home/a/Desktop/regionpoly.shp",None)
+Started logging at Tue Oct 14 2014 22:53:14
+ERROR|Tue Oct 14 2014 22:53:14|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 22:53:14|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 22:53:14|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Oct 14 2014 23:09:48
+ERROR|Tue Oct 14 2014 23:09:48|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 23:09:48|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 23:09:48|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Oct 14 2014 23:12:43
+ERROR|Tue Oct 14 2014 23:12:43|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 23:12:43|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 23:12:43|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 23:13:24|processing.runalg("modeler:total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/home/a/Desktop/regionpoly.shp",None)
+ALGORITHM|Tue Oct 14 2014 23:14:31|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","/home/a/Desktop/regionpoly.shp",None)
+ALGORITHM|Tue Oct 14 2014 23:15:00|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","/tmp/processing/8035abe1853a484e80b6be7d16631e80/OUTPUT_ALG2.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","AREA",None)
+Started logging at Tue Oct 14 2014 23:15:05
+ERROR|Tue Oct 14 2014 23:15:06|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 23:15:06|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 23:15:06|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 23:23:51|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/regionpoly.shp",None)
+ALGORITHM|Tue Oct 14 2014 23:24:16|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/regionpoly.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_administrative.shp","AREA",None)
+Started logging at Tue Oct 14 2014 23:32:00
+ERROR|Tue Oct 14 2014 23:32:01|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 23:32:01|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 23:32:01|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 23:40:22|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/region.shp",None)
+Started logging at Tue Oct 14 2014 23:50:12
+ERROR|Tue Oct 14 2014 23:50:12|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Oct 14 2014 23:50:12|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Oct 14 2014 23:50:12|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Tue Oct 14 2014 23:59:04|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/Untitled Folder/region.shp",None)
+Started logging at Wed Oct 15 2014 08:15:30
+ERROR|Wed Oct 15 2014 08:15:30|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 08:15:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 08:15:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Wed Oct 15 2014 08:22:32
+ERROR|Wed Oct 15 2014 08:22:32|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 08:22:32|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 08:22:32|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 08:25:23|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="lineB" (geometry) sql=","id",None)
+ERROR|Wed Oct 15 2014 08:25:23|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/ftools/ReprojectLayer.py", line 71, in processAlgorithm|    geom.transform(crsTransform)|Exception: unknown|
+ERROR|Wed Oct 15 2014 08:25:23|Error executing algorithm 2|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/ftools/ReprojectLayer.py", line 71, in processAlgorithm|    geom.transform(crsTransform)|Exception: unknown|
+ALGORITHM|Wed Oct 15 2014 08:26:03|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","id",None)
+Started logging at Wed Oct 15 2014 08:32:14
+ERROR|Wed Oct 15 2014 08:32:14|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 08:32:14|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 08:32:15|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 08:33:37|processing.runalg("modeler:total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/home/a/Desktop/regionpoly.shp","/tmp/processing/Totallength")
+ALGORITHM|Wed Oct 15 2014 08:58:30|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","ID",None)
+Started logging at Wed Oct 15 2014 09:17:39
+ERROR|Wed Oct 15 2014 09:17:39|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 09:17:39|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 09:17:39|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 09:19:24|processing.runalg("modeler:compare_total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","id",None)
+Started logging at Wed Oct 15 2014 09:20:27
+ERROR|Wed Oct 15 2014 09:20:27|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 09:20:27|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 09:20:27|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 09:21:24|processing.runalg("modeler:total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/home/a/Desktop/regionpoly.shp",None)
+ALGORITHM|Wed Oct 15 2014 09:22:35|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","AREA","/home/a/Desktop/graph coverred/out.shp")
+Started logging at Wed Oct 15 2014 10:11:16
+ERROR|Wed Oct 15 2014 10:11:16|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 10:11:16|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 10:11:16|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 10:15:44|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","id",None)
+ALGORITHM|Wed Oct 15 2014 10:17:00|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="lineA" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="lineA" (geometry) sql=","id",None)
+ERROR|Wed Oct 15 2014 10:17:00|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/ftools/ReprojectLayer.py", line 71, in processAlgorithm|    geom.transform(crsTransform)|Exception: unknown|
+ERROR|Wed Oct 15 2014 10:17:00|Error executing algorithm 0|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/ftools/ReprojectLayer.py", line 71, in processAlgorithm|    geom.transform(crsTransform)|Exception: unknown|
+ALGORITHM|Wed Oct 15 2014 10:17:51|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network" (geometry) sql=",5,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","AREA",None)
+Started logging at Wed Oct 15 2014 13:08:24
+ERROR|Wed Oct 15 2014 13:08:24|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 13:08:24|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 13:08:24|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 13:09:41|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","id",None)
+Started logging at Wed Oct 15 2014 14:43:30
+ERROR|Wed Oct 15 2014 14:43:30|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 14:43:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 14:43:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 14:46:45|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/regionpoly.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","ID",None)
+ALGORITHM|Wed Oct 15 2014 15:22:19|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/pbregions.shp",None)
+Started logging at Wed Oct 15 2014 15:53:10
+ERROR|Wed Oct 15 2014 15:53:11|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 15:53:11|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 15:53:11|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Wed Oct 15 2014 15:53:46
+ERROR|Wed Oct 15 2014 15:53:46|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 15:53:46|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 15:53:46|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 15:54:56|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/pbregions.shp",None)
+ALGORITHM|Wed Oct 15 2014 16:09:31|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/pbregions.shp",None)
+Started logging at Wed Oct 15 2014 20:50:29
+ERROR|Wed Oct 15 2014 20:50:29|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 20:50:29|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 20:50:29|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 20:53:23|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/region.shp","dbname='/home/a/testdata.sqlite' table="network" (geometry) sql=","ID",None)
+WARNING|Wed Oct 15 2014 20:53:23|Geometry exception while computing difference
+ERROR|Wed Oct 15 2014 20:53:24|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/FieldsCalculator.py", line 101, in processAlgorithm|    outFeat.setGeometry(inGeom)|TypeError: QgsFeature.setGeometry(QgsGeometry): argument 1 has unexpected type 'NoneType'|
+ERROR|Wed Oct 15 2014 20:53:24|Error executing algorithm 9|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/FieldsCalculator.py", line 101, in processAlgorithm|    outFeat.setGeometry(inGeom)|TypeError: QgsFeature.setGeometry(QgsGeometry): argument 1 has unexpected type 'NoneType'|
+ALGORITHM|Wed Oct 15 2014 20:55:43|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/region.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","ID",None)
+Started logging at Wed Oct 15 2014 20:55:55
+ERROR|Wed Oct 15 2014 20:55:55|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 20:55:55|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 20:55:55|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Wed Oct 15 2014 20:57:38|processing.runalg("modeler:compare_total_graph_length","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","/home/a/Desktop/region.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","ID",None)
+ALGORITHM|Wed Oct 15 2014 20:59:19|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=",10,"/home/a/Desktop/region.shp","dbname='/home/a/testdata.sqlite' table="network2" (geometry) sql=","ID",None)
+Started logging at Wed Oct 15 2014 20:59:46
+ERROR|Wed Oct 15 2014 20:59:46|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Oct 15 2014 20:59:46|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Oct 15 2014 20:59:46|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Oct 19 2014 18:54:52
+ERROR|Sun Oct 19 2014 18:54:52|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Oct 19 2014 18:54:52|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Oct 19 2014 18:54:52|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Oct 19 2014 21:39:04
+ERROR|Sun Oct 19 2014 21:39:04|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Oct 19 2014 21:39:04|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Oct 19 2014 21:39:04|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Oct 19 2014 21:45:08|processing.runalg("modeler:total_graph_length","/home/a/temp7.shp","/home/a/temp7.shp",None)
+Started logging at Fri Oct 31 2014 10:53:32
+ERROR|Fri Oct 31 2014 10:53:32|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Oct 31 2014 10:53:32|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Oct 31 2014 10:53:32|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Fri Oct 31 2014 17:28:07
+ERROR|Fri Oct 31 2014 17:28:07|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Oct 31 2014 17:28:07|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Oct 31 2014 17:28:07|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Fri Oct 31 2014 17:32:03|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/vector rid pb.shp",None)
+ALGORITHM|Fri Oct 31 2014 17:38:21|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/vector rid pb.shp",None)
+Started logging at Fri Oct 31 2014 17:40:49
+ERROR|Fri Oct 31 2014 17:40:49|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Oct 31 2014 17:40:49|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Oct 31 2014 17:40:49|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Fri Oct 31 2014 17:48:23|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","/home/a/Desktop/vector rid pb.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/punjab.shapefiles/punjab_highway.shp","ID",None)
+Started logging at Fri Oct 31 2014 17:56:59
+ERROR|Fri Oct 31 2014 17:56:59|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Oct 31 2014 17:56:59|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Oct 31 2014 17:56:59|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Fri Oct 31 2014 18:14:24|processing.runalg("modeler:total_graph_length","/home/a/Desktop/osm ludhiana.shp","/home/a/Desktop/vector grid lud.shp",None)
+ALGORITHM|Fri Oct 31 2014 18:15:26|processing.runalg("modeler:compare_total_graph_length","/home/a/Desktop/osm ludhiana.shp","/home/a/Desktop/vector grid lud.shp","/home/a/Desktop/clipped ludhiana diva.shp","ID",None)
+Started logging at Fri Oct 31 2014 18:18:41
+ERROR|Fri Oct 31 2014 18:18:41|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Oct 31 2014 18:18:41|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Oct 31 2014 18:18:41|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Fri Oct 31 2014 18:19:45|processing.runalg("modeler:total_graph_length","/home/a/Desktop/clipped ludhiana diva.shp","/home/a/Desktop/vector grid lud.shp",None)
+Started logging at Sat Nov 01 2014 10:51:36
+ERROR|Sat Nov 01 2014 10:51:37|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 10:51:37|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 10:51:37|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 21:00:35
+ERROR|Sat Nov 01 2014 21:00:36|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 21:00:36|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 21:00:36|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sat Nov 01 2014 21:09:59|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp","/home/a/Desktop/Test map /lud osm utm pro vector polygon.shp","/home/a/Desktop/Test map /Total graph leng model output.shp")
+ALGORITHM|Sat Nov 01 2014 21:19:26|processing.runalg("modeler:total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp","/home/a/Desktop/Test map /lud osm utm pro vector polygon.shp",None)
+Started logging at Sat Nov 01 2014 21:30:23
+ERROR|Sat Nov 01 2014 21:30:23|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 21:30:23|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 21:30:23|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 21:32:44
+ERROR|Sat Nov 01 2014 21:32:45|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 21:32:45|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 21:32:45|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 21:33:12
+ERROR|Sat Nov 01 2014 21:33:12|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 21:33:12|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 21:33:12|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 21:37:32
+ERROR|Sat Nov 01 2014 21:37:32|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 21:37:32|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 21:37:32|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 21:38:05
+ERROR|Sat Nov 01 2014 21:38:06|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 21:38:06|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 21:38:06|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 21:50:22
+ERROR|Sat Nov 01 2014 21:50:22|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 21:50:22|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 21:50:22|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sat Nov 01 2014 21:52:38|processing.runalg("modeler:1414858933.292","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp","/home/a/Desktop/Test map /lud osm utm pro vector polygon.shp",None)
+ALGORITHM|Sat Nov 01 2014 21:59:06|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp","/home/a/Desktop/Test map /lud osm utm pro vector polygon.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp","ID",None)
+Started logging at Sat Nov 01 2014 22:18:24
+ERROR|Sat Nov 01 2014 22:18:24|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:18:24|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:18:24|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 22:27:49
+ERROR|Sat Nov 01 2014 22:27:49|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:27:49|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:27:49|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:30:13|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:30:13|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:30:13|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 22:35:44
+ERROR|Sat Nov 01 2014 22:35:44|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Nov 01 2014 22:35:44|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:35:44|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:35:44|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 22:39:48
+ERROR|Sat Nov 01 2014 22:39:48|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Nov 01 2014 22:39:48|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:39:48|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:39:48|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 22:40:12
+ERROR|Sat Nov 01 2014 22:40:12|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Nov 01 2014 22:40:12|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:40:12|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:40:12|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 22:41:06
+ERROR|Sat Nov 01 2014 22:41:06|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Nov 01 2014 22:41:06|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:41:06|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:41:06|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Nov 01 2014 22:41:48
+ERROR|Sat Nov 01 2014 22:41:48|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Nov 01 2014 22:41:48|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:41:48|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:41:48|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:45:35|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Nov 01 2014 22:45:35|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Nov 01 2014 22:45:35|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Nov 01 2014 22:45:35|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sat Nov 01 2014 22:47:10|processing.runalg("modeler:compare_total_graph_length -sukhjit","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp","/home/a/Desktop/Test map /lud osm utm pro vector polygon.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp","ID",None)
+ALGORITHM|Sat Nov 01 2014 23:00:05|processing.runalg("modeler:graph_covered_by_buffered_reference_graph","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp",10,"/home/a/Desktop/Test map /lud osm utm pro vector polygon.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Map data used testing/Ludhian Clipeed OSM/osm ludhiana utm projection.shp","ID",None)
+WARNING|Sat Nov 01 2014 23:00:55|Geometry exception while computing difference
+ERROR|Sat Nov 01 2014 23:04:21|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/algs/FieldsCalculator.py", line 101, in processAlgorithm|    outFeat.setGeometry(inGeom)|TypeError: QgsFeature.setGeometry(QgsGeometry): argument 1 has unexpected type 'NoneType'|
+Started logging at Tue Dec 02 2014 17:19:11
+ERROR|Tue Dec 02 2014 17:19:11|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Dec 02 2014 17:19:11|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Dec 02 2014 17:19:11|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Dec 02 2014 17:19:11|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Dec 02 2014 19:20:13
+ERROR|Tue Dec 02 2014 19:20:13|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Dec 02 2014 19:20:13|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Dec 02 2014 19:20:13|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Dec 02 2014 19:20:13|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Dec 02 2014 20:54:50
+ERROR|Tue Dec 02 2014 20:54:50|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Dec 02 2014 20:54:50|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Dec 02 2014 20:54:50|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Dec 02 2014 20:54:50|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Thu Dec 11 2014 14:22:09
+ERROR|Thu Dec 11 2014 14:22:09|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Thu Dec 11 2014 14:22:09|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Thu Dec 11 2014 14:22:09|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Thu Dec 11 2014 14:22:09|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Thu Dec 11 2014 18:06:20
+ERROR|Thu Dec 11 2014 18:06:20|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Thu Dec 11 2014 18:06:20|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Thu Dec 11 2014 18:06:20|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Thu Dec 11 2014 18:06:20|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Fri Dec 12 2014 10:16:33
+ERROR|Fri Dec 12 2014 10:16:34|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Fri Dec 12 2014 10:16:34|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Dec 12 2014 10:16:34|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Dec 12 2014 10:16:34|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Mon Dec 15 2014 22:26:25
+ERROR|Mon Dec 15 2014 22:26:25|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Mon Dec 15 2014 22:26:25|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Mon Dec 15 2014 22:26:25|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Mon Dec 15 2014 22:26:25|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Jan 17 2015 12:32:19
+ERROR|Sat Jan 17 2015 12:32:19|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Jan 17 2015 12:32:19|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Jan 17 2015 12:32:19|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Jan 17 2015 12:32:19|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sat Feb 21 2015 17:48:42
+ERROR|Sat Feb 21 2015 17:48:42|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Feb 21 2015 17:48:42|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Feb 21 2015 17:48:42|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Feb 21 2015 17:48:42|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Mar 08 2015 09:44:35
+ERROR|Sun Mar 08 2015 09:44:35|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 09:44:35|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 09:44:35|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 09:44:35|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 09:44:35|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Mar 08 2015 09:56:44
+ERROR|Sun Mar 08 2015 09:56:44|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 09:56:44|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 09:56:44|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 09:56:44|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 09:56:44|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Mar 08 2015 10:07:05
+ERROR|Sun Mar 08 2015 10:07:05|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:07:05|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:07:05|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:07:05|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:07:05|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Mar 08 2015 10:11:24|processing.runalg("modeler:sukhjit total graph length wid epsg cnahnged","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana Clipped Remote Sesnsing Data/Ludhiana Remote ses wgs84 43n .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /regions ID/Test map .shp",None)
+ALGORITHM|Sun Mar 08 2015 10:15:16|processing.runalg("modeler:sukhjit total graph length wid epsg cnahnged","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana Clipped Remote Sesnsing Data/Ludhiana Remote ses wgs84 43n .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /regions ID/Test map .shp",None)
+ERROR|Sun Mar 08 2015 10:16:04|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:16:04|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:16:04|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:16:04|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:16:04|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Mar 08 2015 10:18:02|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana Clipped Remote Sesnsing Data/Ludhiana Remote ses wgs84 43n .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /regions ID/Test map .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana OSM Clipped Data Ludhiana Polygon WGS84 43N/Ludhiana OSM .shp","ID",None)
+Started logging at Sun Mar 08 2015 10:31:31
+ERROR|Sun Mar 08 2015 10:31:31|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:31:31|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:31:31|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:31:31|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:31:31|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Mar 08 2015 10:32:20|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana Clipped Remote Sesnsing Data/Ludhiana Remote ses wgs84 43n .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /regions ID/Test map .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana OSM Clipped Data Ludhiana Polygon WGS84 43N/Ludhiana OSM .shp","ID",None)
+Started logging at Sun Mar 08 2015 10:37:02
+ERROR|Sun Mar 08 2015 10:37:02|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:37:02|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:37:02|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:37:02|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:37:02|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Mar 08 2015 10:47:03|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana OSM Clipped Data Ludhiana Polygon WGS84 43N/Ludhiana OSM .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /regions ID/Test map .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana Clipped Remote Sesnsing Data/Ludhiana Remote ses wgs84 43n .shp","ID",None)
+Started logging at Sun Mar 08 2015 10:47:23
+ERROR|Sun Mar 08 2015 10:47:23|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:47:23|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:47:23|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:47:23|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:47:23|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Mar 08 2015 10:48:45|processing.runalg("modeler:editedgraph length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana Clipped Remote Sesnsing Data/Ludhiana Remote ses wgs84 43n .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /regions ID/Test map .shp",None)
+ALGORITHM|Sun Mar 08 2015 10:50:11|processing.runalg("modeler:sukhjit total graph length wid epsg cnahnged","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana Clipped Remote Sesnsing Data/Ludhiana Remote ses wgs84 43n .shp","/tmp/processing/4f1d345b87474d3cabf6b6f66c7621e8/OUTPUT_ALG0.shp",None)
+ALGORITHM|Sun Mar 08 2015 10:55:25|processing.runalg("modeler:compare_total_graph_length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana Clipped Remote Sesnsing Data/Ludhiana Remote ses wgs84 43n .shp","/tmp/processing/4f1d345b87474d3cabf6b6f66c7621e8/OUTPUT_ALG0.shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana OSM Clipped Data Ludhiana Polygon WGS84 43N/Ludhiana OSM .shp","ID",None)
+Started logging at Sun Mar 08 2015 10:55:43
+ERROR|Sun Mar 08 2015 10:55:43|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:55:43|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:55:43|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:55:43|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:55:43|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:56:20|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:56:20|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:56:20|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:56:20|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:56:20|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:56:54|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:56:54|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:56:54|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:56:54|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:56:54|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:56:54|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:57:03|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:57:03|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:57:03|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:57:03|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:57:03|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:57:03|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:57:13|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:57:13|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:57:13|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:57:13|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:57:13|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:57:13|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Mar 08 2015 10:59:00
+ERROR|Sun Mar 08 2015 10:59:00|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:59:00|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:59:00|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 10:59:00|Could not load model compare_total_graph_length -sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 10:59:00|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 10:59:00|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Mar 08 2015 11:03:40
+ERROR|Sun Mar 08 2015 11:03:40|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 11:03:40|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 11:03:40|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 11:03:40|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 11:03:40|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 11:03:40|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Mar 08 2015 14:46:30
+ERROR|Sun Mar 08 2015 14:46:31|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 14:46:31|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 14:46:31|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 08 2015 14:46:31|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 08 2015 14:46:31|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 08 2015 14:46:31|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Mar 08 2015 15:06:45|processing.runalg("modeler: edited graph length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana OSM Clipped Data Ludhiana Polygon WGS84 43N/Ludhiana OSM .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /regions ID/Test map .shp",None)
+Started logging at Sat Mar 14 2015 18:09:57
+ERROR|Sat Mar 14 2015 18:09:57|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Mar 14 2015 18:09:57|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Mar 14 2015 18:09:57|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Mar 14 2015 18:09:57|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Mar 14 2015 18:09:57|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Mar 14 2015 18:09:57|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Sun Mar 15 2015 11:05:00
+ERROR|Sun Mar 15 2015 11:05:01|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 15 2015 11:05:01|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 15 2015 11:05:01|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 15 2015 11:05:01|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 15 2015 11:05:01|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 15 2015 11:05:01|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Mar 15 2015 11:09:11|processing.runalg("modeler: edited graph length","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/Ludhiana OSM Clipped Data Ludhiana Polygon WGS84 43N/Ludhiana OSM .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /regions ID/Test map .shp","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/total graph length /Ludhiana OSM Clipped Data Ludhiana Polygon WGS84 43N/Ludhiana OSM .shp")
+Started logging at Sun Mar 15 2015 12:49:28
+ERROR|Sun Mar 15 2015 12:49:28|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 15 2015 12:49:28|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 15 2015 12:49:28|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 15 2015 12:49:28|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 15 2015 12:49:28|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 15 2015 12:49:28|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Sun Mar 15 2015 12:54:40|processing.runalg("gspg:importintopostgis","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/Ludhiana OSM Clipped Data Ludhiana Polygon WGS84 43N/Ludhiana OSM .shp","postgres","",True,True)
+ERROR|Sun Mar 15 2015 12:54:40|Wrong database connection name: postgres
+Started logging at Sun Mar 22 2015 18:07:30
+ERROR|Sun Mar 22 2015 18:07:30|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 22 2015 18:07:30|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 22 2015 18:07:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sun Mar 22 2015 18:07:30|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sun Mar 22 2015 18:07:30|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sun Mar 22 2015 18:07:30|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Mar 24 2015 22:56:32
+ERROR|Tue Mar 24 2015 22:56:33|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Mar 24 2015 22:56:33|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Mar 24 2015 22:56:33|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Mar 24 2015 22:56:33|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Mar 24 2015 22:56:33|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Mar 24 2015 22:56:33|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Wed Mar 25 2015 09:55:21
+ERROR|Wed Mar 25 2015 09:55:22|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Wed Mar 25 2015 09:55:22|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Mar 25 2015 09:55:22|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Wed Mar 25 2015 09:55:22|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Wed Mar 25 2015 09:55:22|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Wed Mar 25 2015 09:55:22|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Mon Apr 13 2015 13:38:07
+ERROR|Mon Apr 13 2015 13:38:08|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Mon Apr 13 2015 13:38:08|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Mon Apr 13 2015 13:38:08|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Mon Apr 13 2015 13:38:08|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Mon Apr 13 2015 13:38:08|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Mon Apr 13 2015 13:38:08|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Mon Apr 13 2015 14:14:21|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Mon Apr 13 2015 14:14:21|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Mon Apr 13 2015 14:14:21|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Mon Apr 13 2015 14:14:21|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Mon Apr 13 2015 14:14:21|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Mon Apr 13 2015 14:14:21|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Fri Apr 17 2015 22:02:17
+ERROR|Fri Apr 17 2015 22:02:18|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Fri Apr 17 2015 22:02:18|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Apr 17 2015 22:02:18|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Apr 17 2015 22:02:18|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Fri Apr 17 2015 22:02:18|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Apr 17 2015 22:02:18|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Fri Apr 17 2015 22:44:24
+ERROR|Fri Apr 17 2015 22:44:24|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Fri Apr 17 2015 22:44:24|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Apr 17 2015 22:44:24|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Apr 17 2015 22:44:24|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Fri Apr 17 2015 22:44:24|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Apr 17 2015 22:44:24|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ALGORITHM|Fri Apr 17 2015 23:40:17|processing.runalg("gspg:importvectorintogeoserver","http://localhost:8080/geoserver/rest","admin","geoserver","/media/a/DATA/Sukhjit/research/map gpx/jaiteg singh ji/geoconverter data in shp/geoconverter_20150409_121621/jaiteg/lines.shp","testosm")
+ERROR|Fri Apr 17 2015 23:40:18|Uncaught error while executing algorithm|Traceback (most recent call last):|Traceback (most recent call last):|  File "/usr/share/qgis/python/plugins/processing/core/GeoAlgorithm.py", line 150, in execute|    self.processAlgorithm(progress)|  File "/usr/share/qgis/python/plugins/processing/admintools/ImportVectorIntoGeoServer.py", line 54, in processAlgorithm|    workspace = self.catalog.get_workspace(workspaceName)|  File "/usr/share/qgis/python/plugins/processing/admintools/geoserver/catalog.py", line 517, in get_workspace|    candidates = [w for w in self.get_workspaces() if w.name == name]|  File "/usr/share/qgis/python/plugins/processing/admintools/geoserver/catalog.py", line 513, in get_workspaces|    description = self.get_xml("%s/workspaces.xml" % self.service_url)|  File "/usr/share/qgis/python/plugins/processing/admintools/geoserver/catalog.py", line 165, in get_xml|    raise FailedRequestError("Tried to make a GET request to %s but got a %d status code: \n%s" % (url, response.status, content))|FailedRequestError: Tried to make a GET request to <function url at 0x7f92c2e70f50> but got a 404 status code: |<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">|<html><head>|<title>404 Not Found</title>|</head><body>|<h1>Not Found</h1>|<p>The requested URL /geoserver/rest/workspaces.xml was not found on this server.</p>|</body></html>||
+ALGORITHM|Fri Apr 17 2015 23:41:33|processing.runalg("gspg:importvectorintogeoserver","http://localhost:8090/geoserver/rest","admin","a","/media/a/DATA/Sukhjit/research/map gpx/jaiteg singh ji/geoconverter data in shp/geoconverter_20150409_121621/jaiteg/lines.shp","openstreetmap")
+ALGORITHM|Fri Apr 17 2015 23:46:51|processing.runalg("gspg:importvectorintogeoserver","http://localhost:8090/geoserver/rest","admin","a","/media/a/DATA/Sukhjit/research/research/Openstreetmaps/Map data/Test map Ludhiana in UTM projection in kms/Punjab OSM Data WSG84 43N/Punjab OSM Data WSG84 43N.shp","openstreetmap")
+ALGORITHM|Fri Apr 17 2015 23:52:25|processing.runalg("gspg:importvectorintogeoserver","http://localhost:8090/geoserver/rest","admin","a","/media/a/DATA/Sukhjit/research/map gpx/jaiteg singh ji/geoconverter data in shp/geoconverter_20150409_121815/oldosm data/lines.shp","OpenStreetMap")
+Started logging at Sat Apr 18 2015 14:32:40
+ERROR|Sat Apr 18 2015 14:32:41|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Apr 18 2015 14:32:41|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Apr 18 2015 14:32:41|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Sat Apr 18 2015 14:32:41|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Sat Apr 18 2015 14:32:41|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Sat Apr 18 2015 14:32:41|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Apr 21 2015 16:39:28
+ERROR|Tue Apr 21 2015 16:39:29|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Apr 21 2015 16:39:29|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Apr 21 2015 16:39:29|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Apr 21 2015 16:39:29|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Apr 21 2015 16:39:29|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Apr 21 2015 16:39:29|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Apr 21 2015 20:58:22
+ERROR|Tue Apr 21 2015 20:58:23|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Apr 21 2015 20:58:23|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Apr 21 2015 20:58:23|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Apr 21 2015 20:58:23|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Apr 21 2015 20:58:23|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Apr 21 2015 20:58:23|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Tue Apr 21 2015 21:00:33
+ERROR|Tue Apr 21 2015 21:00:33|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Apr 21 2015 21:00:33|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Apr 21 2015 21:00:33|Could not load model sukjit total graph length comparison.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Tue Apr 21 2015 21:00:33|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Tue Apr 21 2015 21:00:33|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Tue Apr 21 2015 21:00:33|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Fri Jul 03 2015 23:07:10
+ERROR|Fri Jul 03 2015 23:07:11|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Fri Jul 03 2015 23:07:11|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Jul 03 2015 23:07:11|Could not load model sukjit total graph length comparison.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Fri Jul 03 2015 23:07:11|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Fri Jul 03 2015 23:07:11|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Fri Jul 03 2015 23:07:11|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+Started logging at Mon Jul 06 2015 17:38:18
+ERROR|Mon Jul 06 2015 17:38:19|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Mon Jul 06 2015 17:38:19|Could not load model compare_total_graph_length.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Mon Jul 06 2015 17:38:19|Could not load model sukjit total graph length comparison.model|Error in algorithm name: modeler:total_graph_length
+ERROR|Mon Jul 06 2015 17:38:19|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise
+ERROR|Mon Jul 06 2015 17:38:19|Could not load model compare_total_graph_length sukhjit.model|Error in algorithm name: modeler:sukhjti total graph length wid epsg cnahnged
+ERROR|Mon Jul 06 2015 17:38:19|Could not load model hausdorff_dist_between_route_pairs.model|Error in algorithm name: script:hausdorffdistancepairwise

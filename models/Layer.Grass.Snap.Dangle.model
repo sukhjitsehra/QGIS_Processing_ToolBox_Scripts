@@ -1,0 +1,255 @@
+{
+    "values": {
+        "inputs": {
+            "VECTORLAYER_INPUTFILE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 17.0, 
+                            "x": 111.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "VECTORLAYER_INPUTFILE", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "InputFile"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "NUMBER_NUMBERSNAP": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 77.0, 
+                            "x": 383.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "NUMBER_NUMBERSNAP", 
+                            "min": 0, 
+                            "default": 0, 
+                            "max": 10, 
+                            "value": null, 
+                            "hidden": false, 
+                            "isInteger": true, 
+                            "optional": false, 
+                            "description": "SnapDistance"
+                        }, 
+                        "class": "processing.core.parameters.ParameterNumber"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "NUMBER_DANGLEDISTANCE": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 147.0, 
+                            "x": 384.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "NUMBER_DANGLEDISTANCE", 
+                            "min": 0, 
+                            "default": 0, 
+                            "max": 10, 
+                            "value": null, 
+                            "hidden": false, 
+                            "isInteger": true, 
+                            "optional": false, 
+                            "description": "DangleDistance"
+                        }, 
+                        "class": "processing.core.parameters.ParameterNumber"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Layer.Topology", 
+        "name": "Layer.Grass.Snap.Dangles", 
+        "algs": {
+            "GRASSV.CLEAN_2": {
+                "values": {
+                    "name": "GRASSV.CLEAN_2", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "output": {
+                            "values": {
+                                "description": "CleanedDangle", 
+                                "pos": {
+                                    "values": {
+                                        "y": 331.0, 
+                                        "x": 404.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }, 
+                        "error": {
+                            "values": {
+                                "description": "ErrorDangle", 
+                                "pos": {
+                                    "values": {
+                                        "y": 361.0, 
+                                        "x": 404.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 286.0, 
+                            "x": 204.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "tool": 2, 
+                        "thresh": {
+                            "values": {
+                                "name": "NUMBER_DANGLEDISTANCE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "input": {
+                            "values": {
+                                "alg": "GRASSV.CLEAN_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.clean", 
+                    "description": "v.clean - Toolset for cleaning topology of vector map."
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "QGISREPROJECTLAYER_1": {
+                "values": {
+                    "name": "QGISREPROJECTLAYER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 75.0, 
+                            "x": 118.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "INPUT": {
+                            "values": {
+                                "name": "VECTORLAYER_INPUTFILE"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "TARGET_CRS": "EPSG:32643"
+                    }, 
+                    "active": true, 
+                    "consoleName": "qgis:reprojectlayer", 
+                    "description": "Reproject layer"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "GRASSV.CLEAN_1": {
+                "values": {
+                    "name": "GRASSV.CLEAN_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "output": {
+                            "values": {
+                                "description": "CleanedSnap", 
+                                "pos": {
+                                    "values": {
+                                        "y": 193.0, 
+                                        "x": 530.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }, 
+                        "error": {
+                            "values": {
+                                "description": "ErrorSnap", 
+                                "pos": {
+                                    "values": {
+                                        "y": 234.0, 
+                                        "x": 533.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 148.0, 
+                            "x": 121.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "GRASS_SNAP_TOLERANCE_PARAMETER": -1.0, 
+                        "GRASS_MIN_AREA_PARAMETER": 0.0001, 
+                        "tool": 1, 
+                        "thresh": {
+                            "values": {
+                                "name": "NUMBER_NUMBERSNAP"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "input": {
+                            "values": {
+                                "alg": "QGISREPROJECTLAYER_1", 
+                                "output": "OUTPUT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "GRASS_REGION_PARAMETER": null
+                    }, 
+                    "active": true, 
+                    "consoleName": "grass:v.clean", 
+                    "description": "v.clean - Toolset for cleaning topology of vector map."
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

@@ -1,0 +1,208 @@
+{
+    "values": {
+        "inputs": {
+            "inputlayer": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 120.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "inputlayer", 
+                            "shapetype": [
+                                1
+                            ], 
+                            "default": null, 
+                            "value": null, 
+                            "exported": null, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Input_Layer"
+                        }, 
+                        "class": "processing.core.parameters.ParameterVector"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "filename": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 123.0, 
+                            "x": 122.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "filename", 
+                            "default": "graph.graphml", 
+                            "value": "graph.graphml", 
+                            "multiline": false, 
+                            "evaluateExpressions": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "File_Name"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "expression": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 344.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "expression", 
+                            "default": "( \"type\" ='primary')  or (\"type\"='residential')", 
+                            "value": "( \"type\" ='primary')  or (\"type\"='residential')", 
+                            "multiline": false, 
+                            "evaluateExpressions": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Expression"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "cre": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 118.0, 
+                            "x": 342.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "cre", 
+                            "default": "EPSG:32643", 
+                            "value": "EPSG:32643", 
+                            "multiline": false, 
+                            "evaluateExpressions": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "CRS"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "[Structural.Analysis]", 
+        "name": "s2x_Extracting_Road_by_Class_Generate_graphml", 
+        "algs": {
+            "SCRIPTS2XCREATEGRAPH_1": {
+                "values": {
+                    "name": "SCRIPTS2XCREATEGRAPH_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 376.0, 
+                            "x": 183.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "CRS_of_layer": {
+                            "values": {
+                                "name": "cre"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "layer": {
+                            "values": {
+                                "alg": "SCRIPTSAVEFEATURESFILTEREDBYEXPRESSION_1", 
+                                "output": "output"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromOutput"
+                        }, 
+                        "graphml_file_name": {
+                            "values": {
+                                "name": "filename"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "folder_to_save_graphml": "/home/office/Desktop"
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:s2xcreategraph", 
+                    "description": "s2x create graph"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTSAVEFEATURESFILTEREDBYEXPRESSION_1": {
+                "values": {
+                    "name": "SCRIPTSAVEFEATURESFILTEREDBYEXPRESSION_1", 
+                    "paramsFolded": true, 
+                    "outputs": {
+                        "output": {
+                            "values": {
+                                "description": "Filtered_by_expression", 
+                                "pos": {
+                                    "values": {
+                                        "y": 253.0, 
+                                        "x": 470.0
+                                    }, 
+                                    "class": "point"
+                                }
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ModelerOutput"
+                        }
+                    }, 
+                    "outputsFolded": true, 
+                    "pos": {
+                        "values": {
+                            "y": 223.0, 
+                            "x": 285.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "dependencies": [], 
+                    "params": {
+                        "Vector_layer": {
+                            "values": {
+                                "name": "inputlayer"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Expression": {
+                            "values": {
+                                "name": "expression"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:savefeaturesfilteredbyexpression", 
+                    "description": "Save features filtered by expression"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

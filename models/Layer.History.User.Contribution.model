@@ -1,0 +1,511 @@
+{
+    "values": {
+        "inputs": {
+            "NUMBER_POSTGRESPORT": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 23.0, 
+                            "x": 333.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "NUMBER_POSTGRESPORT", 
+                            "min": null, 
+                            "default": 5432, 
+                            "max": null, 
+                            "value": null, 
+                            "hidden": false, 
+                            "isInteger": true, 
+                            "description": "Postgres Port"
+                        }, 
+                        "class": "processing.core.parameters.ParameterNumber"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_POSTGRESPASSWORD": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 20.0, 
+                            "x": 120.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_POSTGRESPASSWORD", 
+                            "default": "a", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Postgres Password"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_POSTGRESUSER": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 23.0, 
+                            "x": 542.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_POSTGRESUSER", 
+                            "default": "postgres", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Postgres User"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "FILE_FOLDER": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 62.0, 
+                            "x": 541.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "FILE_FOLDER", 
+                            "isFolder": true, 
+                            "value": null, 
+                            "ext": null, 
+                            "hidden": false, 
+                            "optional": true, 
+                            "description": "Location to save plot"
+                        }, 
+                        "class": "processing.core.parameters.ParameterFile"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_HISTORYDATABASENAME": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 332.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_HISTORYDATABASENAME", 
+                            "default": "hist_osm_pb", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "History Database Name"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }, 
+            "STRING_HOST": {
+                "values": {
+                    "pos": {
+                        "values": {
+                            "y": 60.0, 
+                            "x": 120.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "param": {
+                        "values": {
+                            "isAdvanced": false, 
+                            "name": "STRING_HOST", 
+                            "default": "localhost", 
+                            "value": null, 
+                            "multiline": false, 
+                            "hidden": false, 
+                            "optional": false, 
+                            "description": "Host"
+                        }, 
+                        "class": "processing.core.parameters.ParameterString"
+                    }
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.ModelerParameter"
+            }
+        }, 
+        "helpContent": {}, 
+        "group": "Layer.Intrinsic.Analysis", 
+        "name": "Layer.History.User.Contribution", 
+        "algs": {
+            "SCRIPTC7USERCREATEDEDITED98_1": {
+                "values": {
+                    "name": "SCRIPTC7USERCREATEDEDITED98_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 207.0, 
+                            "x": 121.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Database": {
+                            "values": {
+                                "name": "STRING_HISTORYDATABASENAME"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Host": {
+                            "values": {
+                                "name": "STRING_HOST"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "User": {
+                            "values": {
+                                "name": "STRING_POSTGRESUSER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Password": {
+                            "values": {
+                                "name": "STRING_POSTGRESPASSWORD"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Port": {
+                            "values": {
+                                "name": "NUMBER_POSTGRESPORT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "location": {
+                            "values": {
+                                "name": "FILE_FOLDER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:c7usercreatededited98", 
+                    "description": "Contributers and their cummulated percentage of contributions"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTC7MAPPERTYP_1": {
+                "values": {
+                    "name": "SCRIPTC7MAPPERTYP_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 138.0, 
+                            "x": 336.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Database": {
+                            "values": {
+                                "name": "STRING_HISTORYDATABASENAME"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Host": {
+                            "values": {
+                                "name": "STRING_HOST"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "User": {
+                            "values": {
+                                "name": "STRING_POSTGRESUSER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Password": {
+                            "values": {
+                                "name": "STRING_POSTGRESPASSWORD"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Port": {
+                            "values": {
+                                "name": "NUMBER_POSTGRESPORT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "location": {
+                            "values": {
+                                "name": "FILE_FOLDER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:c7mappertyp", 
+                    "description": "Classification of contributors"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTC7USER_1": {
+                "values": {
+                    "name": "SCRIPTC7USER_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 139.0, 
+                            "x": 123.0
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Database": {
+                            "values": {
+                                "name": "STRING_HISTORYDATABASENAME"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Host": {
+                            "values": {
+                                "name": "STRING_HOST"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "User": {
+                            "values": {
+                                "name": "STRING_POSTGRESUSER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Password": {
+                            "values": {
+                                "name": "STRING_POSTGRESPASSWORD"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Port": {
+                            "values": {
+                                "name": "NUMBER_POSTGRESPORT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "location": {
+                            "values": {
+                                "name": "FILE_FOLDER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:c7user", 
+                    "description": "Development of contributers"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTC7DISTINCTUSERS_1": {
+                "values": {
+                    "name": "SCRIPTC7DISTINCTUSERS_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 137.44867178402146, 
+                            "x": 558.9619539438067
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Database": {
+                            "values": {
+                                "name": "STRING_HISTORYDATABASENAME"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Host": {
+                            "values": {
+                                "name": "STRING_HOST"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "User": {
+                            "values": {
+                                "name": "STRING_POSTGRESUSER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Password": {
+                            "values": {
+                                "name": "STRING_POSTGRESPASSWORD"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Port": {
+                            "values": {
+                                "name": "NUMBER_POSTGRESPORT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "location": {
+                            "values": {
+                                "name": "FILE_FOLDER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:c7distinctusers", 
+                    "description": " Development of active distinct contributers"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTC7USERPERFEATURES_1": {
+                "values": {
+                    "name": "SCRIPTC7USERPERFEATURES_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 208.4299883547499, 
+                            "x": 338.09613393695855
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Database": {
+                            "values": {
+                                "name": "STRING_HISTORYDATABASENAME"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Host": {
+                            "values": {
+                                "name": "STRING_HOST"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "User": {
+                            "values": {
+                                "name": "STRING_POSTGRESUSER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Password": {
+                            "values": {
+                                "name": "STRING_POSTGRESPASSWORD"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Port": {
+                            "values": {
+                                "name": "NUMBER_POSTGRESPORT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "location": {
+                            "values": {
+                                "name": "FILE_FOLDER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:c7userperfeatures", 
+                    "description": "Number of contributors per feature"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }, 
+            "SCRIPTC7MAXVERSIONPERFEATURES_1": {
+                "values": {
+                    "name": "SCRIPTC7MAXVERSIONPERFEATURES_1", 
+                    "paramsFolded": true, 
+                    "outputs": {}, 
+                    "pos": {
+                        "values": {
+                            "y": 209.26632239335348, 
+                            "x": 560.2246754908357
+                        }, 
+                        "class": "point"
+                    }, 
+                    "outputsFolded": true, 
+                    "dependencies": [], 
+                    "params": {
+                        "Database": {
+                            "values": {
+                                "name": "STRING_HISTORYDATABASENAME"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Host": {
+                            "values": {
+                                "name": "STRING_HOST"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "User": {
+                            "values": {
+                                "name": "STRING_POSTGRESUSER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Password": {
+                            "values": {
+                                "name": "STRING_POSTGRESPASSWORD"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "Port": {
+                            "values": {
+                                "name": "NUMBER_POSTGRESPORT"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }, 
+                        "location": {
+                            "values": {
+                                "name": "FILE_FOLDER"
+                            }, 
+                            "class": "processing.modeler.ModelerAlgorithm.ValueFromInput"
+                        }
+                    }, 
+                    "active": true, 
+                    "consoleName": "script:c7maxversionperfeatures", 
+                    "description": "Maxium Version per features"
+                }, 
+                "class": "processing.modeler.ModelerAlgorithm.Algorithm"
+            }
+        }
+    }, 
+    "class": "processing.modeler.ModelerAlgorithm.ModelerAlgorithm"
+}

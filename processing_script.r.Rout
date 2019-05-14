@@ -1,0 +1,331 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> options("repos"="http://cran.at.r-project.org/")
+> tryCatch(find.package("rgdal"), error=function(e) install.packages("rgdal", dependencies=TRUE))
+Installing package into ‘/home/office/R/x86_64-pc-linux-gnu-library/3.2’
+(as ‘lib’ is unspecified)
+Warning message:
+package ‘rgdal’ is not available (for R version 3.2.3) 
+> tryCatch(find.package("raster"), error=function(e) install.packages("raster", dependencies=TRUE))
+Installing package into ‘/home/office/R/x86_64-pc-linux-gnu-library/3.2’
+(as ‘lib’ is unspecified)
+Warning: dependency ‘rgdal’ is not available
+also installing the dependencies ‘latticeExtra’, ‘sp’, ‘rgeos’, ‘ncdf4’, ‘rasterVis’
+
+trying URL 'http://cran.at.r-project.org/src/contrib/latticeExtra_0.6-28.tar.gz'
+Content type 'application/x-gzip' length 1294369 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'http://cran.at.r-project.org/src/contrib/sp_1.2-5.tar.gz'
+Content type 'application/x-gzip' length 1134121 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'http://cran.at.r-project.org/src/contrib/rgeos_0.3-23.tar.gz'
+Content type 'application/x-gzip' length 257486 bytes (251 KB)
+==================================================
+downloaded 251 KB
+
+trying URL 'http://cran.at.r-project.org/src/contrib/ncdf4_1.16.tar.gz'
+Content type 'application/x-gzip' length 121420 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'http://cran.at.r-project.org/src/contrib/rasterVis_0.41.tar.gz'
+Content type 'application/x-gzip' length 40749 bytes (39 KB)
+==================================================
+downloaded 39 KB
+
+trying URL 'http://cran.at.r-project.org/src/contrib/raster_2.5-8.tar.gz'
+Content type 'application/x-gzip' length 1092017 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+* installing *source* package ‘latticeExtra’ ...
+** package ‘latticeExtra’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (latticeExtra)
+* installing *source* package ‘sp’ ...
+** package ‘sp’ successfully unpacked and MD5 sums checked
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcentroid.c -o Rcentroid.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gcdist.c -o gcdist.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pip.c -o pip.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pip2.c -o pip2.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sp_xports.c -o sp_xports.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c surfaceArea.c -o surfaceArea.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG      -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c zerodist.c -o zerodist.o
+gcc -std=gnu99 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o sp.so Rcentroid.o gcdist.o init.o pip.o pip2.o sp_xports.o surfaceArea.o zerodist.o -L/usr/lib/R/lib -lR
+installing to /home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/libs
+** R
+** data
+** demo
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (sp)
+* installing *source* package ‘ncdf4’ ...
+** package ‘ncdf4’ successfully unpacked and MD5 sums checked
+configure.ac: starting
+checking for nc-config... yes
+Using nc-config: nc-config
+Output of nc-config --all:
+
+This netCDF 4.4.0 has been built with the following features: 
+
+  --cc        -> /usr/bin/x86_64-linux-gnu-gcc
+  --cflags    -> -I/usr/include -I/usr/include/hdf5/serial
+  --libs      -> -L/usr/lib -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf -lhdf5_hl -lhdf5 -lpthread -lsz -lz -ldl -lm -lcurl
+
+  --has-c++   -> no
+  --cxx       -> 
+  --has-c++4  -> no
+  --cxx4      -> 
+
+  --fc        -> 
+  --fflags    -> 
+  --flibs     -> 
+  --has-f90   -> no
+
+  --has-dap   -> yes
+  --has-nc2   -> yes
+  --has-nc4   -> yes
+  --has-hdf5  -> yes
+  --has-hdf4  -> no
+  --has-pnetcdf-> no
+  --has-szlib -> no
+
+  --prefix    -> /usr
+  --includedir-> /usr/include
+  --version   -> netCDF 4.4.0
+
+---
+netcdf.m4: about to set rpath, here is source string: >-L/usr/lib -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf -lhdf5_hl -lhdf5 -lpthread -lsz -lz -ldl -lm -lcurl<
+netcdf.m4: final rpath:   -Wl,-rpath,/usr/lib -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial
+Netcdf library version: netCDF 4.4.0
+Netcdf library has version 4 interface present: yes
+Netcdf library was compiled with C compiler: /usr/bin/x86_64-linux-gnu-gcc
+configure: creating ./config.status
+config.status: creating src/Makevars
+ 
+**********************  Results of ncdf4 package configure *******************
+ 
+netCDF v4 CPP flags      = -I/usr/include -I/usr/include/hdf5/serial
+netCDF v4 LD flags       =   -Wl,-rpath,/usr/lib -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial -L/usr/lib -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf -lhdf5_hl -lhdf5 -lpthread -lsz -lz -ldl -lm -lcurl 
+netCDF v4 runtime path   =   -Wl,-rpath,/usr/lib -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial
+ 
+netCDF C compiler used   = /usr/bin/x86_64-linux-gnu-gcc
+R      C compiler used   = gcc -std=gnu99 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g
+ 
+******************************************************************************
+ 
+netcdf cc arg1: /usr/bin/x86_64-linux-gnu-gcc  R cc arg1: gcc R_IS_GCC: 1 R_IS_CLANG: 0 NETCDF_IS_GCC: 1 NETCDF_IS_CLANG: 0  emit_warning: 0
+** libs
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include -I/usr/include/hdf5/serial     -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ncdf.c -o ncdf.o
+gcc -std=gnu99 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o ncdf4.so ncdf.o -Wl,-rpath,/usr/lib -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial -L/usr/lib -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf -lhdf5_hl -lhdf5 -lpthread -lsz -lz -ldl -lm -lcurl -L/usr/lib/R/lib -lR
+installing to /home/office/R/x86_64-pc-linux-gnu-library/3.2/ncdf4/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (ncdf4)
+* installing *source* package ‘rgeos’ ...
+** package ‘rgeos’ successfully unpacked and MD5 sums checked
+configure: CC: gcc -std=gnu99
+configure: CXX: g++
+configure: rgeos: 0.3-23
+checking for /usr/bin/svnversion... yes
+configure: svn revision: 546
+checking for geos-config... /usr/bin/geos-config
+checking geos-config usability... yes
+configure: GEOS version: 3.5.0
+checking geos version at least 3.2.0... yes
+checking geos-config clibs... yes
+checking for gcc... gcc -std=gnu99
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -std=gnu99 accepts -g... yes
+checking for gcc -std=gnu99 option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -std=gnu99 -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking geos_c.h usability... yes
+checking geos_c.h presence... yes
+checking for geos_c.h... yes
+checking geos: linking with libgeos_c... yes
+configure: PKG_CPPFLAGS:  -I/usr/include
+configure: PKG_LIBS:  -L/usr/lib/x86_64-linux-gnu -lgeos-3.5.0 -L/usr/lib/x86_64-linux-gnu -lgeos_c
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+g++ -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dummy.cc -o dummy.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c local_stubs.c -o local_stubs.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos.c -o rgeos.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_R2geos.c -o rgeos_R2geos.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_R2geosMP.c -o rgeos_R2geosMP.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_bbox.c -o rgeos_bbox.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_buffer.c -o rgeos_buffer.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_coord.c -o rgeos_coord.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_geos2R.c -o rgeos_geos2R.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_linearref.c -o rgeos_linearref.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_misc.c -o rgeos_misc.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_poly2nb.c -o rgeos_poly2nb.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_predicate_binary.c -o rgeos_predicate_binary.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_predicate_unary.c -o rgeos_predicate_unary.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_topology.c -o rgeos_topology.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_topology_binary.c -o rgeos_topology_binary.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_validate.c -o rgeos_validate.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -I/usr/include  -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/sp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rgeos_wkt.c -o rgeos_wkt.o
+g++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o rgeos.so dummy.o init.o local_stubs.o rgeos.o rgeos_R2geos.o rgeos_R2geosMP.o rgeos_bbox.o rgeos_buffer.o rgeos_coord.o rgeos_geos2R.o rgeos_linearref.o rgeos_misc.o rgeos_poly2nb.o rgeos_predicate_binary.o rgeos_predicate_unary.o rgeos_topology.o rgeos_topology_binary.o rgeos_validate.o rgeos_wkt.o -L/usr/lib/x86_64-linux-gnu -lgeos-3.5.0 -L/usr/lib/x86_64-linux-gnu -lgeos_c -L/usr/lib/R/lib -lR
+installing to /home/office/R/x86_64-pc-linux-gnu-library/3.2/rgeos/libs
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (rgeos)
+* installing *source* package ‘raster’ ...
+** package ‘raster’ successfully unpacked and MD5 sums checked
+** libs
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aggregate.c -o aggregate.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aggregate_get.c -o aggregate_get.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bilinear.cpp -o bilinear.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c broom.c -o broom.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cellRowCol.cpp -o cellRowCol.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clamp.c -o clamp.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c direction.c -o direction.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dist_util.c -o dist_util.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c edge.c -o edge.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c focal_fun.c -o focal_fun.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c focal_get.c -o focal_get.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c focal_sum.c -o focal_sum.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geodesic.c -o geodesic.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geolib.c -o geolib.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c getPolygons.cpp -o getPolygons.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c intersect.c -o intersect.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c layerize.c -o layerize.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c modal.cpp -o modal.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pointinpoly.c -o pointinpoly.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ppmin.cpp -o ppmin.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reclass.c -o reclass.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c solar.c -o solar.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c terrain.c -o terrain.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -std=gnu99 -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wirth.c -o wirth.o
+g++ -I/usr/share/R/include -DNDEBUG   -I"/home/office/R/x86_64-pc-linux-gnu-library/3.2/Rcpp/include"   -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xyCell.cpp -o xyCell.o
+g++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o raster.so RcppExports.o aggregate.o aggregate_get.o bilinear.o broom.o cellRowCol.o clamp.o direction.o dist_util.o distance.o edge.o focal_fun.o focal_get.o focal_sum.o geodesic.o geolib.o getPolygons.o intersect.o layerize.o modal.o pointinpoly.o ppmin.o reclass.o solar.o terrain.o util.o wirth.o xyCell.o -L/usr/lib/R/lib -lR
+installing to /home/office/R/x86_64-pc-linux-gnu-library/3.2/raster/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘aggregate’ from package ‘stats’ in package ‘raster’
+Creating a generic function for ‘as.array’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘as.matrix’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘as.vector’ from package ‘base’ in package ‘raster’
+in method for ‘brick’ with signature ‘x="big.matrix"’: no definition for class “big.matrix”
+in method for ‘brick’ with signature ‘x="kasc"’: no definition for class “kasc”
+in method for ‘brick’ with signature ‘x="grf"’: no definition for class “grf”
+in method for ‘coerce’ with signature ‘"STFDF","RasterBrick"’: no definition for class “STFDF”
+in method for ‘coerce’ with signature ‘"STSDF","RasterBrick"’: no definition for class “STSDF”
+in method for ‘coerce’ with signature ‘"asc","RasterLayer"’: no definition for class “asc”
+in method for ‘coerce’ with signature ‘"RasterLayer","asc"’: no definition for class “asc”
+in method for ‘coerce’ with signature ‘"kasc","RasterBrick"’: no definition for class “kasc”
+in method for ‘coerce’ with signature ‘"kasc","RasterStack"’: no definition for class “kasc”
+in method for ‘coerce’ with signature ‘"kde","RasterLayer"’: no definition for class “kde”
+in method for ‘coerce’ with signature ‘"grf","RasterBrick"’: no definition for class “grf”
+in method for ‘coerce’ with signature ‘"grf","RasterLayer"’: no definition for class “grf”
+Creating a generic function for ‘nrow’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘ncol’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘hist’ from package ‘graphics’ in package ‘raster’
+Creating a generic function for ‘as.list’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘mean’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘labels’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘lines’ from package ‘graphics’ in package ‘raster’
+Creating a generic function for ‘print’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘quantile’ from package ‘stats’ in package ‘raster’
+in method for ‘raster’ with signature ‘x="big.matrix"’: no definition for class “big.matrix”
+in method for ‘raster’ with signature ‘x="kasc"’: no definition for class “kasc”
+in method for ‘raster’ with signature ‘x="asc"’: no definition for class “asc”
+in method for ‘raster’ with signature ‘x="kde"’: no definition for class “kde”
+in method for ‘raster’ with signature ‘x="grf"’: no definition for class “grf”
+Creating a generic function for ‘rowSums’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘colSums’ from package ‘base’ in package ‘raster’
+Creating a generic function for ‘scale’ from package ‘base’ in package ‘raster’
+in method for ‘stack’ with signature ‘x="kasc"’: no definition for class “kasc”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* DONE (raster)
+* installing *source* package ‘rasterVis’ ...
+** package ‘rasterVis’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (rasterVis)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp4pVyOj/downloaded_packages’
+> library("raster")
+Loading required package: sp
+> library("rgdal")
+Error in library("rgdal") : there is no package called ‘rgdal’
+Execution halted
